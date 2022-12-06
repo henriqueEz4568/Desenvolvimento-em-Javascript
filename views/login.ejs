@@ -8,11 +8,35 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <div class="buttonH">
+            <button class="buttonHeader"><a href="http://localhost:5000/home" class="home-link">Home</a></button>
+        <button class="buttonHeader"><a href="http://localhost:5000/home/login" class="login-link">Login</a></button>
+        <button class="buttonHeader"><a href="http://localhost:5000/home/login/cadastro" class="cadastro-link">Cadastre-se</a></button>
+        
+        </div>
+        
+        
+        </header>
 <div class="bodyl">
-<div class="login">aaaa</div>
+<div class="login">
+<form action="/registro" method="post">
+    <h3>Login</h3>
+<input type="text" name="email" placeholder="Email:"/>
+<input type="password" name="senha" placeholder="Senha:">
+<input type="submit" name="acao" value="enviar" />
+
+</form>
+
+
+
+
+
 
 
 </div>
-    
+</div>
+   
 </body>
+
 </html>
