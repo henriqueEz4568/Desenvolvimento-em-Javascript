@@ -95,5 +95,14 @@ width: 100vw;
    background-color: black;
 
     cursor: pointer;
-
 }
+
+.logo{
+    color: white;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px}
