@@ -4,6 +4,9 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 const rotasProjeto=require('./routers/router.js')
 app.engine('ejs', require('ejs').__express);
+app.use(express.urlencoded({extended:false}));
+app.use(express.json());
+
 const rotasLogin = require('./routers/routerlogin.js')
 const rotasCadastro = require('./routers/routerCadastro.js')
 
