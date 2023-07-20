@@ -10,9 +10,9 @@ res.render('login')},
 cadastro:(req,res)=>{
 res.render('cadastro')
     } ,
-    loginEfetuado:(req,res)=>{
-        let {email,senha}=req.query;
-        res.send("login efetuado no email: "+email)
+loginEfetuado:(req,res)=>{
+let {email,senha}=req.query;
+res.send("login efetuado no email: "+email)
     },
     salvarForm:(req,res)=>{
         let{nome,email,telefone,genero,data_nascimento,cidade,estado,endereco}=req.body;
